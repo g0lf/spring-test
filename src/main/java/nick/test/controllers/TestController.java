@@ -14,7 +14,7 @@ public class TestController {
 
     @RequestMapping("/")
     public void index(){
-        Book book = bookService.addBook("test book");
+        Book book = bookService.addBook("test book for feature 1");
         System.out.println(book.getId());
     }
 
