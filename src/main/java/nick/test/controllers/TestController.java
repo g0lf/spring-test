@@ -14,7 +14,7 @@ public class TestController {
 
     @RequestMapping("/")
     public void index(){
-        Book book = bookService.addBook("test book one devel change");
+        Book book = bookService.addBook("test book one devel change after merge feature");
         System.out.println(book.getId());
     }
 
